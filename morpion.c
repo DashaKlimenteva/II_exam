@@ -8,6 +8,7 @@
 //test 8
 //test 9
 //test 10
+//test 11
 int main() {
     int c;
     // Affichage de la grille vide
