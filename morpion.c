@@ -1,6 +1,7 @@
 #include <stdio.h>
 //test PR1 trigger
 //test 2 ww
+//test 4
 int main() {
     int c;
     // Affichage de la grille vide
