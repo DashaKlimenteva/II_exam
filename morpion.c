@@ -3,6 +3,7 @@
 //test 2 ww
 //test 4
 //test 5
+//test 6
 int main() {
     int c;
     // Affichage de la grille vide
