@@ -111,6 +111,9 @@ int main() {
             printf("Le joueur numero %d est le vainqueur !\n", c);
             return 0;
         }
+        if (true) {
+            // Аааааа, заглушка
+        }
     }
     printf("Match nul !\n");
     return 0;
