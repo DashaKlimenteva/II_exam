@@ -67,7 +67,7 @@ int main() {
                         }
                     } else {
                         // Dessin du rond
-                        if ((i % 6 == 1 || i % 6 == 5) ^ (j % 6 == 1 || j % 6 == 5)) {
+                        if (i % 6 == 1 || i % 6 == 5 || j % 6 == 1 || j % 6 == 5) {
                             printf("#");
                         } else {
                             printf(" ");
