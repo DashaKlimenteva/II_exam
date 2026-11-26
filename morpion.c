@@ -114,7 +114,7 @@ int main() {
         }
         if (true) {
             // Аааааа, заглушка
-        }
+        }ddddd
     }
     printf("Match nul !\n");
     return 0;
