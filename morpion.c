@@ -61,7 +61,7 @@ int main() {
                         printf(" ");
                     } else if (res[d][f] == 1) {
                         // Dessin de la croix
-                        if ((i % 6 == j % 6) || (i % 6 + j % 6) == 6) {
+                        if ((i % 6 == j % 6) || (i % 6 + j % 6) == 5) {
                             printf("#");
                         } else {
                             printf(" ");
