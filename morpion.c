@@ -1,14 +1,6 @@
 #include <stdio.h>
-//test PR1 trigger
-//test 2 ww
-//test 4
-//test 5
-//test 6
-//test 7
-//test 8
-//test 9
-//test 10
-//test 11
+#include <stdbool.h>
+
 int main() {
     int c;
     // Affichage de la grille vide
@@ -60,7 +52,7 @@ int main() {
                         printf(" ");
                     } else if (res[d][f] == 1) {
                         // Dessin de la croix
-                        if ((i % 6 == j % 6) || (i % 6 + j % 6) == 6) {
+                        if ((i % 6 == j % 6) || (i % 6 + j % 6) == 5) {
                             printf("#");
                         } else {
                             printf(" ");
